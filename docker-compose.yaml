@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+  sample-api:
+    image: 'golang:1.12.4'
+    container_name: sample-api
+    volumes:
+      - .:/go/src/projects.org/sample/sample-api/
+  
+    environment:      
+      - PORT=8890
+      - DB_BIZ_NOME=dbname
+      - DB_BIZ_HOST=dbhost
+      - DB_BIZ_PORTA=7432
+      - DB_BIZ_USER=dbuser
+      - DB_BIZ_PASSWORD=dbpassword
+      - ENABLE_LOG_FILE=true
+      - LOG_FILE=log.txt
+      - ALLOWED_PARAM={"Origins":["*"],"Headers":["*"],"Methods":["GET","POST"]}
+
+    ports:
+      - 8890:8890
+
+    command: /go/src/projects.org/sample/sample-api/run-app.sh

@@ -1,0 +1,15 @@
+{
+		"DBBizNome": "db",
+    "DBBizHost": "",
+    "GodinAuthURL": "",
+    "DBBizPorta": 7432,
+    "DBBizUser": "",
+    "DBBizPassword": "",
+    "enableLogFile": true,
+    "logFile": "log.txt",
+    "redisHost": "127.0.0.1:6379",
+    "redisSenha": "",
+    "newRelicToken": "",
+    "port": 8890,
+    "allowedParam": "{\"Origins\":[\"*\"],\"Headers\":[\"*\"],\"Methods\":[\"GET\",\"POST\"]}"
+}

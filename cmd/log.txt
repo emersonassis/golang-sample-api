@@ -1,0 +1,54 @@
+INFO : 2019/11/02 11:23:58.697653 main.go:59: Using LOG in file
+INFO : 2019/11/02 11:23:58.698295 main.go:96: Server starting in port: 8890
+INFO : 2019/11/02 11:55:06.468173 main.go:87: Server starting in port: 8890
+INFO : 2019/11/02 13:34:26.969651 main.go:84: Server starting in port: 8890
+INFO : 2019/11/02 13:34:30.782084 handlers.go:50: Request: {
+	"id": 2
+}
+INFO : 2019/11/02 13:35:21.405847 handlers.go:50: Request: {
+	"id": 2,
+	"name": "Name"
+}
+INFO : 2019/11/02 13:35:28.358142 main.go:84: Server starting in port: 8890
+INFO : 2019/11/02 13:35:32.080636 handlers.go:50: Request: {
+	"id": 2,
+	"name": "Name"
+}
+INFO : 2019/11/02 13:35:39.986484 handlers.go:50: Request: {
+	"id": 2,
+	"name": "Name",
+}
+INFO : 2019/11/02 13:36:05.186245 handlers.go:50: Request: {
+	"id": 2, "name": "Name"
+}
+INFO : 2019/11/02 13:36:20.855916 main.go:84: Server starting in port: 8890
+INFO : 2019/11/02 13:36:28.146069 handlers.go:50: Request: {
+	"id": 2, 
+	"name": "Name"
+}
+INFO : 2019/11/02 13:36:48.172154 handlers.go:50: Request: {
+	"code": 00001, 
+	"name": "Name"
+}
+INFO : 2019/11/02 13:36:51.964301 handlers.go:50: Request: {
+	"code": 1, 
+	"name": "Name"
+}
+INFO : 2019/11/02 13:54:28.947580 main.go:57: Using LOG in file
+INFO : 2019/11/02 13:54:28.948360 main.go:84: Server starting in port: 8890
+INFO : 2019/11/02 13:54:33.301187 handlers.go:50: Request: {
+	"code": 1, 
+	"name": "Name"
+}
+INFO : 2019/11/02 15:26:31.346041 main.go:56: Using LOG in file
+INFO : 2019/11/02 15:26:31.346947 main.go:83: Server starting in port: 8890
+INFO : 2019/11/02 15:26:43.773252 handlers.go:50: Request: {
+	"code": 1, 
+	"name": "Name"
+}
+INFO : 2019/11/02 15:52:15.782446 main.go:56: Using LOG in file
+INFO : 2019/11/02 15:52:15.784309 main.go:83: Server starting in port: 8890
+INFO : 2019/11/02 15:55:29.540323 main.go:56: Using LOG in file
+INFO : 2019/11/02 15:55:29.542140 main.go:83: Server starting in port: 8890
+INFO : 2019/11/02 16:05:30.195132 main.go:56: Using LOG in file
+INFO : 2019/11/02 16:05:30.195839 main.go:83: Server starting in port: 8890
