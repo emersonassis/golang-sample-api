@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   sample-api:
-    image: 'golang:1.12.4'
+    image: 'golang'
     container_name: sample-api
     volumes:
       - .:/go/src/projects.org/sample/sample-api/
