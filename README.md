@@ -36,7 +36,7 @@ docker-compose up
 ### Accessing the routes
 ___
 
-##### Open your favorite browser and access the bellow link:
+##### Open your favorite browser and access the link bellow:
 
 ````
 Request:
@@ -56,7 +56,7 @@ Response:
 }
 ```
 
-##### Now open the Postman, for exemplo.
+##### Now open the Postman, for exemple.
 
 ```
 1 - Change the verb HTTP to POST
